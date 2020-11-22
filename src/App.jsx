@@ -11,7 +11,7 @@ function App() {
       <h1>Hello {counter}</h1>
       <button onClick={() => dispatch(increment(5))}>+</button>
       <button onClick={() => dispatch(decrement())}>-</button>
-      {isLogged ? <p>my SLIME </p> : ''}
+      {isLogged ? <p>my TEST </p> : ''}
     </div>
   )
 }
